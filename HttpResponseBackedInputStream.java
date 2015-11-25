@@ -1,3 +1,11 @@
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ * 
+ * Need instructions or want more info? I live at https://github.com/hispanic/HttpResponseBackedInputStream
+ * Copyright © 2015 Michael Harry Scepaniak
+ */
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -11,7 +19,7 @@ import org.apache.http.util.EntityUtils;
  * Instances of this class are intended to be used as the return value from calls to a custom-coded class (not 
  * provided) used to wrap HttpClient. These calls would return content only, as opposed to the full HTTP response object. 
  *
- * @author Michael Scepaniak
+ * @author Michael Harry Scepaniak
  *
  */
 public class HttpResponseBackedInputStream extends InputStream
